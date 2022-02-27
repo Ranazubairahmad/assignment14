@@ -20,21 +20,22 @@ import img21 from './../../assets/img21.png'
 import img22 from './../../assets/img22.png'
 
 import Button from '../button/Button'
-// import Cards from '../cards/Cards'
+import Cards from '../cards/Cards'
+
 
 export default function Body() {
     return (
         <div>
-            {/* --------------container2-------------- */}
+      
             <div className="container-fluid" id='con2'>
-                {/* ------------row1 ---------------*/}
+             
                 <div className="row" id='con2row1'>
                     <div className="col-1"></div>
                     <div className="col-md-4 col-sm-12" id='con2h1'>
                         <h1>Building things is <br /> our mission.</h1>
                     </div>
                 </div>
-                {/* --------------row2------------- */}
+               
                 <div className="row" >
                     <div className="col-9"></div>
                     <div className="col-md-3 col-sm-12" id='con2row2' >
@@ -42,56 +43,45 @@ export default function Body() {
                         <p id='con2p2'>The National University of Architecture</p>
                     </div>
                 </div>
-                {/* ----------------row3--------------- */}
+               
                 <div className="row">
                     <div className="col-9"></div>
                     <div className="col-1">
-                        <Button title="Back" margin-left="30px" /></div>
+                        <Button title="Back" /></div>
                     <div className="col-1">
-                        <Button title="Next" /></div>
+                        <Button title="Next" style={{ marginLeft: 50 }} /></div>
                 </div>
             </div>
-            {/* -------------------container3------------------ */}
+          
             <div className="container-fluid">
-                {/* ----------------row1------------------- */}
+             
                 <div className="row">
                     <div className="col-5"></div>
                     <div className="col-md-3 col-sm-12" id='con3row1'>Our Reputation</div>
                 </div>
-                {/* --------------------row2--------------- */}
+            
+
                 <div className="row" id='con3row2'>
                     <div className="col-2"></div>
-                    {/* <div className="col-2"> */}
-                    {/* <Cards  src={img4}/> 
-
-                    <Cards   title="Best services  Nullam senectus porttitor in eget. Eget rutrum leo interdum."/> 
-                    </div> */}
-                    {/* </div> */}
-                    <div className="col-md-2 col-sm-6" id='con3row2card1'>
-                        <img src={img4} alt="" />
-                        <p className='con3row2p1'>Best Services</p>
-                        <p className='con3row2p2'>Nullam senectus porttitor in eget. Eget rutrum leo interdum.</p>
+                    <div className="col-2">
+                        <Cards  img src={img4} title="Best services " para="Nullam senectus porttitor in eget.Eget rutrum leo interdum. " />
                     </div>
-                    <div className="col-1"></div>
 
-                    <div className="col-md-2 col-sm-6" id='con3row2card2'>
-                        <img src={img4} alt="" />
-                        <p className='con3row2p1'>Best Team</p>
-                        <p className='con3row2p2' >Cursus semper tellus volutpat aliquet lacus. </p>
+                    <div className="col-1"></div>
+                    <div className="col-2">
+                        <Cards  img src={img4} title="Best Team " para="Cursus semper tellus volutpat aliquet lacus. " />
                     </div>
-                    <div className="col-1"></div>
 
-                    <div className="col-md-2 col-sm-6" id='con3row2card3'>
-                        <img src={img5} alt="" />
-                        <p className='con3row2p1'>Best </p>
-                        <p className='con3row2p2'>Ultricies at ipsum nunc, tristique nam lectus.</p>
+                    <div className="col-1"></div>
+                    <div className="col-2">
+                        <Cards  img src={img5} alt="" title="Best Team " para="Cursus semper tellus volutpat aliquet lacus. " />
                     </div>
                 </div>
             </div>
-            {/* ------------------container4--------------------- */}
+           
             <div className="container" id='con4-1'>
                 <div className="container-fluid">
-                    {/* ----------------row1------------------- */}
+                  
                     <div className="row" id='con4-2'>
                         <div className="col-7" ></div>
                         <div className="col-md-5 col-sm-12" id='con4row1'><p id='con4row1p1'>About us</p>
@@ -101,14 +91,14 @@ export default function Body() {
                     </div>
                 </div>
             </div>
-            {/* ------------------------container5----------------- */}
+         
             <div className="container-fluid">
-                {/* ----------------row1------------------- */}
+         
                 <div className="row">
                     <div className="col-5"></div>
                     <div className="col-md-3 col-sm-12" id='con5row1'>Services</div>
                 </div>
-                {/* --------------------row2--------------- */}
+           
                 <div className="row" id='con3row2'>
                     <div className="col-2"></div>
                     <div className="col-md-2 col-sm-6" id='con5row2card1'>
@@ -131,7 +121,7 @@ export default function Body() {
 
                     </div>
                 </div>
-                {/* --------------------row3--------------- */}
+           
                 <div className="row" id='con5row3'>
                     <div className="col-2"></div>
                     <div className="col-md-2 col-sm-6" id='con5row3card1'>
@@ -156,9 +146,9 @@ export default function Body() {
                 </div>
 
             </div>
-            {/* --------------------------------container6----------------------- */}
+          
             <div className="container-fluid">
-                {/* ---------------------row1-------------------------------- */}
+               
                 <div className="row" >
                     <div className="col-4"></div>
                     <div className="col-md-2 col-sm-12" id='con6row1'><h1>84</h1>
@@ -166,7 +156,7 @@ export default function Body() {
                         <p>Happy Client</p></div>
                     <div className="col-1" id='con6row1img'><img src={img14} alt="" /></div>
                 </div>
-                {/* ----------------------row2------------------------------- */}
+                
                 <div className="row" >
                     <div className="col-1"></div>
                     <div className="col-1" id='con6row2img'><img src={img13} alt="" /></div>
@@ -178,7 +168,7 @@ export default function Body() {
                         <Button title="Contact Us" />
                     </div>
                 </div>
-                {/* -------------------------row3------------------------------ */}
+               
                 <div className="row" >
                     <div className="col-4"></div>
                     <div className="col-md-2 col-sm-12" id='con6row3h1'><h1>37</h1>
@@ -186,7 +176,7 @@ export default function Body() {
                         <p>Awards Win</p></div>
                     <div className="col-1" id='con6row3img'><img src={img15} alt="" /></div>
                 </div>
-                {/* ------------------------------row4-------------------------- */}
+               
                 <div className="row" >
                     <div className="col-2"></div>
                     <div className="col-md-2 col-sm-12" id='con6row4h1'><h1>30</h1>
@@ -195,9 +185,9 @@ export default function Body() {
                     <div className="col-1" id='con6row4img'><img src={img16} alt="" /></div>
                 </div>
             </div>
-            {/* -----------------------container7---------------------------- */}
+           
             <div className="container-fluid" id='con7'>
-                {/* -------------row1-------------------------------------- */}
+               
                 <div className="row" id='con7row1'>
                     <div className="col-1"></div>
                     <div className="col-md-7 col-sm-12" id='con7row1p'>
@@ -209,14 +199,14 @@ export default function Body() {
                         <Button title="Get your consultation" /></div>
                 </div>
             </div>
-            {/* --------------------------container8-------------------- */}
+          
             <div className="container">
-                {/* ------------------------row1---------------------- */}
+               
                 <div className="row">
 
                     <div className="col-1"><h3 id='con8row1'>Projects</h3></div>
                 </div>
-                {/* -------------------------row2--------------------- */}
+               
                 <div className="row">
 
                     <div className="col-2" id='con8row2'><p>All</p><p>Commercial</p><p>Residential</p>
@@ -228,7 +218,7 @@ export default function Body() {
                     </div>
                     <div className="col-4"><img src={img20} alt="" /></div>
                 </div>
-                {/* -------------------------row3-------------------- */}
+              
                 <div className="row" id='con8row3'>
                     <div className="col-3"></div>
                     <div className="col-5" ><img src={img18} alt="" />
@@ -236,7 +226,7 @@ export default function Body() {
                     </div>
                     <div className="col-4"><img src={img20} alt="" /></div>
                 </div>
-                {/*------------------ row4----------------------- */}
+                
                 <div className="row">
                     <div className="col-3"></div>
                     <div className="col-1">
@@ -248,10 +238,10 @@ export default function Body() {
                     </div>
                 </div>
             </div>
-            {/* ------------------------container9----------------- */}
+            
             <form action="">
                 <div className="container-fluid">
-                    {/* --------------------row1---------------- */}
+                  
                     <div className="row">
                         <div className="col-4"></div>
                         <div className="col-md-5 col-sm-12" id='con9row1'>
@@ -260,7 +250,7 @@ export default function Body() {
 
                         </div>
                     </div>
-                    {/* -------------------------row2--------------------- */}
+                   
                     <div className="row">
                         <div className="col-4"></div>
                         <div className="col-md-2 col-sm-12">
@@ -272,14 +262,14 @@ export default function Body() {
                             <input type="text" placeholder='Email' required />
                             <input type="text" placeholder='Phone' required className='con9row2input' /></div>
                     </div>
-                    {/* ---------------------------row3-------------------- */}
+                 
                     <div className="row">
                         <div className="col-4"></div>
                         <div className="col-md-4 col-sm-12" >
                             <input type="text" placeholder='Messages' required id='con9row3' />
                         </div>
                     </div>
-                    {/* --------------------------row4------------- */}
+           
                     <div className="row">
                         <div className="col-6"></div>
                         <div className="col-1" id='con9row4btn'>

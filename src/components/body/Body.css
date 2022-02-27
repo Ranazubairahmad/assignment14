@@ -47,9 +47,10 @@ line-height: 42px;
 text-align: center;
 }
 #con3row2{
+    
     margin-top: 50px;
 }
-.con3row2p1{
+/* .con3row2p1{
     font-family: Work Sans;
 font-style: normal;
 font-weight: bold;
@@ -66,28 +67,28 @@ font-size: 16px;
 line-height: 19px;
 color: #858EAD;
 
-}
-#con3row2card1{
+} */
+/* #con3row2card1{
     border: 1.4px solid #E0E3EB;
     box-sizing: border-box;
     border-radius: 4px;
     box-shadow: 5px 5px 15px grey;
-}
-
+} */
+/* 
 #con3row2card2{
     border: 1.4px solid #E0E3EB;
     box-sizing: border-box;
     border-radius: 4px;
     box-shadow: 5px 5px 15px grey;
-}
-
+} */
+/* 
 #con3row2card3{
     border: 1.4px solid #E0E3EB;
     box-sizing: border-box;
     border-radius: 4px;
     box-shadow: 5px 5px 15px grey;
-  
-}
+   */
+/* } */
 #con4-1{ 
     height: 550px;
     width:800px;
